@@ -1,0 +1,19 @@
+tsg-rs
+Copyright (c) 2026 the tsg-rs authors.
+Licensed under either of the MIT licence (LICENSE-MIT) or the Apache License,
+Version 2.0 (LICENSE-APACHE), at your option.
+
+The TSG file layout implemented here was learned by reading the source of
+pytsg (https://github.com/Geological-Survey-of-Western-Australia/pytsg),
+Copyright (c) Geological Survey of Western Australia, MIT License, and was
+then checked against real NVCL HyLogger packages (see docs/tsg-format.md and
+VERIFY.md). No pytsg code is included in this crate. pytsg is used, unmodified,
+only as the reference reader in verify/compare.py, which is not part of the
+published crate.
+
+This project is not affiliated with or endorsed by the makers of The Spectral
+Geologist (TSG), the Geological Survey of Western Australia, or AuScope / the
+National Virtual Core Library (NVCL).
+
+No spectral data are distributed with this repository. The tests generate
+small synthetic files at run time.

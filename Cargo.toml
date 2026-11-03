@@ -1,0 +1,23 @@
+[package]
+name = "tsg-rs"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.83"
+license = "MIT OR Apache-2.0"
+description = "Reader and CLI for the NIR/SWIR spectra and scalars (including TSA results) in TSG .tsg/.bip files"
+readme = "README.md"
+keywords = ["spectroscopy", "geology", "hyperspectral", "tsg", "nvcl"]
+categories = ["science", "parser-implementations", "command-line-utilities"]
+exclude = ["verify/"]
+
+[[bin]]
+name = "tsg"
+path = "src/main.rs"
+
+[dependencies]
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = { level = "warn", priority = -1 }
