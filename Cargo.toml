@@ -6,6 +6,7 @@ rust-version = "1.83"
 license = "MIT OR Apache-2.0"
 description = "Reader and CLI for the NIR/SWIR spectra and scalars (including TSA results) in TSG .tsg/.bip files"
 readme = "README.md"
+repository = "https://github.com/TUFF-Industries/tsg-rs"
 keywords = ["spectroscopy", "geology", "hyperspectral", "tsg", "nvcl"]
 categories = ["science", "parser-implementations", "command-line-utilities"]
 exclude = ["verify/"]

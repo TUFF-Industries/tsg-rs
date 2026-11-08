@@ -16,4 +16,7 @@ Geologist (TSG), the Geological Survey of Western Australia, or AuScope / the
 National Virtual Core Library (NVCL).
 
 No spectral data are distributed with this repository. The tests generate
-small synthetic files at run time.
+small synthetic files at run time. The README examples and VERIFY.md quote a
+few values from public HyLogger datasets of the Geological Survey of Western
+Australia and the other state and territory geological surveys, accessed
+through AuScope's National Virtual Core Library (NVCL).

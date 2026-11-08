@@ -26,14 +26,15 @@ For each `.tsg`/`.bip` pair:
 4. **`Grp1 sTSAS` against the survey:** the label decoded from the scalar plane
    was compared with the survey's published `Grp1_sTSAS.csv` for that hole, row
    by row over every sample. The survey's `null` matches an empty field.
-   `tools/embedded_tsa_check.py` in nvcl-crosscheck was the reference for this
-   check.
+   The survey CSV is the `Grp1 sTSAS` scalar log published by each state's
+   NVCL data service (`downloadscalars`), one row per TSG sample.
 
 The five holes are the three used in the earliest pytsg cross-check (one each
 from WA, QLD and SA) plus the alphabetically first NT and NSW holes that had a
 survey `Grp1_sTSAS.csv` on disk. A sixth hole, WA BDRCD019, is listed
-separately as a known exception: an earlier full scan had found its survey CSV
-disagreeing with its embedded TSA.
+separately as a known exception: an earlier scan of 197 NVCL TSG files, made
+outside this repository, had found its survey CSV disagreeing with its
+embedded TSA.
 
 ## Results
 

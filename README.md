@@ -24,7 +24,7 @@ label.
 Rust 1.83 or newer. The crate has no dependencies.
 
 ```bash
-git clone <this repository> && cd tsg-rs
+git clone https://github.com/TUFF-Industries/tsg-rs.git && cd tsg-rs
 cargo install --path .
 ```
 
@@ -165,3 +165,8 @@ Apache License 2.0 ([LICENSE-APACHE](LICENSE-APACHE)), at your option.
 The file layout was learned from
 [pytsg](https://github.com/Geological-Survey-of-Western-Australia/pytsg)
 (Geological Survey of Western Australia, MIT). See [NOTICE](NOTICE).
+
+The examples and the verification use public HyLogger data from the
+Geological Survey of Western Australia and the other state and territory
+geological surveys, accessed through AuScope's National Virtual Core Library
+(NVCL). No data are included in this repository.
